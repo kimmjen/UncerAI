@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 기준 경로를 프로젝트 루트로 설정
+    "paths": {
+      "@/*": ["src/*"] // Alias '@'를 src 폴더로 매핑
+    },
+    "jsx": "react-jsx",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
